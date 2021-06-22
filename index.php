@@ -21,7 +21,7 @@
         $bedword = $_GET['bedword'];
         $sentence = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur maxime vel esse excepturi. Rerum sit deleniti, mollitia ex expedita ipsam?';
 
-        $goodSentence = str_replace($badword, '***', $sentence);
+        $goodSentence = str_replace($bedword, '***', $sentence);
 
         // var_dump($bedword, $sentence, $goodSentence);
         echo $goodSentence;
